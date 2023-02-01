@@ -27,7 +27,7 @@ jobs:
 
       - name: Run schemachange
         env:
-          SF_ACCOUNT: yfb20393.us-east-1.snowflakecomputing.com
+          SF_ACCOUNT: https://yfb20393.us-east-1.snowflakecomputing.com
           SF_USERNAME: FHB72058
           SF_WAREHOUSE: COMPUTE_WH
           SF_DATABASE: liquibase
