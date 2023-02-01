@@ -1,0 +1,3 @@
+use liquibase.new_schema;
+
+alter table liquibase.new_schema.first_action add column age int;
